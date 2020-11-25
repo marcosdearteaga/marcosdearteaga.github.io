@@ -48,9 +48,9 @@
   <link rel="alternate" hreflang="en-us" href="https://marcosdearteaga.github.io/">
 
   
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   
-
+    -->
   
   
   
@@ -288,7 +288,8 @@
 
   
   <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Marcos de Arteaga">
-  
+  <link rel="feed" href="https://marcosdearteaga.github.io/index.xml" type="application/rss+xml" title="Marcos de Arteaga">
+
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
@@ -318,10 +319,13 @@
   <meta property="og:description" content="Aspiring Social Scientist"><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
-    
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="og:updated_time" content="2020-11-25T12:00:00&#12;01:00">
   
 
-  
+ 
+  <!--
 
 <script type="application/ld+json">
 {
@@ -336,7 +340,7 @@
 }
 </script>
 
-
+-->
   
 
 
@@ -345,7 +349,7 @@
 
   
 
-
+<!-- TITLE OF WEBSITE -->
 
 
 
@@ -354,9 +358,9 @@
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="71" data-target="#navbar-main" class="page-wrapper  ">
+<body id="top" data-spy="scroll" data-offset="71" data-target="#navbar-main">
   
-  <script src="/js/wowchemy-init.js"></script>
+  <!-- <script src="/js/wowchemy-init.js"></script> -->
 
   <aside class="search-results" id="search">
   <div class="container">
@@ -374,7 +378,7 @@
       <div id="search-box">
         
         <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
-        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control">
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
         
       </div>
 
@@ -390,27 +394,28 @@
 </aside>
 
 
-  <div class="page-header">
+  <!-- <div class="page-header"> -->
   
 
 
-<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+<!-- <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container"> -->
+  
+  <nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
   <div class="container">
 
     
-    <div class="d-none d-lg-inline-flex">
+    <!-- <div class="d-none d-lg-inline-flex"> -->
+    
       <a class="navbar-brand" href="/">Marcos de Arteaga</a>
-    </div>
-    
 
-    
     <button type="button" class="navbar-toggler" data-toggle="collapse"
-            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
     <span><i class="fas fa-bars"></i></span>
     </button>
     
 
-    
+   <!-- 
     <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
       <a class="navbar-brand" href="/">Marcos de Arteaga</a>
     </div>
@@ -421,13 +426,121 @@
     <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
 
       
-      <ul class="navbar-nav d-md-inline-flex">
+      <ul class="navbar-nav d-md-inline-flex"> -->
+        
+
+        <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav mr-auto">
         
 
         
 
         
         
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#about" data-target="#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/#aboutme" data-target="#aboutme">
+            
+            <span>About Me</span>
+            
+          </a>
+        </li>
+
+        
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/#research" data-target="#research">
+            
+            <span>Research</span>
+            
+          </a>
+        </li>
+
+        
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/#projects" data-target="#projects">
+            
+            <span>Projects</span>
+            
+          </a>
+        </li>
+
+        
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/#aboutme" data-target="#aboutme">
+            
+            <span>About Me</span>
+            
+          </a>
+        </li>
+
+        
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/#posts" data-target="#posts">
+            
+            <span>Posts</span>
+            
+          </a>
+        </li>
+
+        
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/#resources" data-target="#resources">
+            
+            <span>Resources</span>
+            
+          </a>
+        </li>
+
+        
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/#contact" data-target="#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/pdf/jeffely-cv.pdf" data-target="pdf/jeffely-cv.pdf">
+        
+            <span>Academic CV</span>
+            
+          </a>
+        </li>
+        
+        
+        <li class="nav-item">
+          
+          <a class="nav-link" href="/pdf/deedy_resume.pdf" data-target="/pdf/deedy_resume.pdf">
+               
+            <span>Resume</span>
+            
+          </a>
+        </li>
         
           
         
@@ -450,24 +563,13 @@
             
               
             
-            
-          
-        
+   
+   <!--     
 
         <li class="nav-item">
           <a class="nav-link " href="/#about" data-target="#about">
             <span>Home</span></a>
         </li>
-
-        
-        
-
-        
-        
-
-        
-          
-            
             
         
 
@@ -484,54 +586,44 @@
             <span>Research</span></a>
         </li>
             
-          
         
 
         <li class="nav-item">
           <a class="nav-link " href="/#projects" data-target="#projects">
-            <span>Projects</span></a>
+          <span>Projects</span></a>
         </li>
-
-        
-        
 
         
         <li class="nav-item">
           <a class="nav-link" href="/#posts" data-target="#posts">
-            <span>Posts</span>
-            
-          </a>
+            <span>Posts</span></a>
         </li>
     
+        
+        
         <li class="nav-item">
           <a class="nav-link" href="/#resources" data-target="#resources">
-            <span>Resources</span>
-            
-          </a>
+            <span>Resources</span></a>
         </li>
        
 
+        
         <li class="nav-item">
           <a class="nav-link " href="/#contact" data-target="#contact">
             <span>Contact</span></a>
         </li>
 
         
+        
         <li class="nav-item">
           <a class="nav-link" href="/pdf/jeffely-cv.pdf" data-target="pdf/jeffely-cv.pdf">
-        
-            <span>Academic CV</span>
-            
-          </a>
+            <span>Academic CV</span></a>
         </li>
         
         
         <li class="nav-item">
-          
-          <a class="nav-link" href="/pdf/deedy_resume.pdf" data-target="/pdf/deedy_resume.pdf">
-               
+          <a class="nav-link" href="/pdf/deedy_resume.pdf" data-target="/pdf/deedy_resume.pdf"> 
             <span>Resume</span>
-            
           </a>
         </li>
 
@@ -542,7 +634,7 @@
     </div>
 
     <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
-      
+    
       
       <li class="nav-item">
         <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
@@ -575,25 +667,49 @@
 
   </div>
 </nav>
+    
+    -->
+        
+        
+        </ul>
+      <ul class="navbar-nav ml-auto">
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+  
+  
+<span id="homepage" class="d-none"></span>
 
 
+  <!--
   </div>
 
   <div class="page-body">
-    
-
-
-
-
-
-
-
-
-
 
 
   
 <span class="js-widget-page d-none"></span>
+-->
 
 
 
@@ -775,8 +891,8 @@
   
 
   
-  <section id="about" class="home-section wg-about  "  >
-   <div class="home-section-bg " ></div>
+<section id="about" class="home-section wg-about  "  >
+   <!-- <div class="home-section-bg " ></div> -->
     <div class="container">
 
     
@@ -791,9 +907,6 @@
 
 
 
-
-
-<!--
 <div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="person-email person-address">
   <div class="col-12 col-lg-4">
     <div id="profile">
@@ -804,8 +917,8 @@
       
 
       <div class="portrait-title">
-        <h2>Marcos de Arteaga</h2>
-        <h3>Aspiring Social Scientist</h3>
+        <h2 itemprop="name">Marcos de Arteaga</h2>
+        <h3 itemprop="jobTitle">Aspiring Social Scientist</h3>
 
         
         <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
@@ -814,8 +927,14 @@
           </a>
         </h3>
         
-      </div> -->
+      </div>
+      
+      
+      <link itemprop="url" href="">
 
+      <ul class="network-icon" aria-hidden="true">
+
+<!--
       <div class="row">
   <div class="col-12 col-lg-4">
     <div id="profile">
@@ -841,7 +960,7 @@
       <ul class="network-icon" aria-hidden="true">
         
         
-        
+        -->
         
           
         
@@ -852,7 +971,7 @@
           
         
         <li>
-          <a href="/#contact" >
+          <a itemprop="sameAs" href="/#contact" >
             <i class="fas fa-envelope big-icon"></i>
           </a>
         </li>
@@ -861,7 +980,7 @@
         
         
          <li>
-          <a href="https://github.com/" target="_blank" rel="noopener">
+          <a itemprop="sameAs" href="https://github.com/" target="_blank" rel="noopener">
             <i class="fab fa-github big-icon"></i>
           </a>
         </li>
@@ -871,7 +990,7 @@
         
         
         <li>
-          <a href="https://www.linkedin.com/" target="_blank" rel="noopener">
+          <a itemprop="sameAs" href="https://www.linkedin.com/" target="_blank" rel="noopener">
             <i class="fab fa-linkedin big-icon"></i>
           </a>
         </li>
@@ -881,7 +1000,7 @@
           
         
         <li>
-          <a href="https://twitter.com/" target="_blank" rel="noopener">
+          <a itemprop="sameAs" href="https://twitter.com/" target="_blank" rel="noopener">
             <i class="fab fa-twitter big-icon"></i>
           </a>
         </li>
@@ -889,7 +1008,7 @@
         
         
         <li>
-          <a href="https://www.researchgate.net/" target="_blank" rel="noopener">
+          <a itemprop="sameAs" href="https://www.researchgate.net/" target="_blank" rel="noopener">
             <i class="ai ai-researchgate big-icon"></i>
           </a>
         </li>
@@ -897,7 +1016,7 @@
         
         
         <li>
-          <a href="https://www.instagram.com/" target="_blank" rel="noopener">
+          <a itemprop="sameAs" href="https://www.instagram.com/" target="_blank" rel="noopener">
             <i class="fab fa-instagram big-icon"></i>
           </a>
         </li>
@@ -917,7 +1036,7 @@
 
     </div>
   </div>
-  <div class="col-12 col-lg-8">
+  <div class="col-12 col-lg-8" itemprop="description">
 
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.</p>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.</p>
@@ -984,8 +1103,8 @@
   </section>
 
   
-  
-    </section> <!-- second section end to get rid of background???? -->
+  <!--
+    </section>  second section end to get rid of background???? -->
   
 
   
@@ -2334,27 +2453,32 @@ contributions to the following open source projects:</p>
 
   </div>
 
+    
+    <!--
+  <div class="container">
   <div class="page-footer">
     
     
     
     <script src="/js/academic.min.37431be2d92d7fb0160054761ab79602.js"></script>
     
-    <div class="container">
-      <footer class="site-footer">
-  
+    
+   
 
   <p class="powered-by">
     
   </p>
 
+  -->
   
+
+
+
+
+ 
+    <div class="container">
+      <footer class="site-footer">
   
-
-
-
-
-
 
   <p class="powered-by">
     
@@ -2378,7 +2502,6 @@ contributions to the following open source projects:</p>
 
     </div>
     
-  </div>
 
   
 <div id="modal" class="modal fade" role="dialog">
@@ -2409,7 +2532,7 @@ contributions to the following open source projects:</p>
       
 
     
-    
+   <!-- 
     
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 
@@ -2443,7 +2566,46 @@ contributions to the following open source projects:</p>
     
     <script>const code_highlighting = true;</script>
     
+-->
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
 
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/julia.min.js"></script>
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/shell.min.js"></script>
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
     
     
     
@@ -2466,7 +2628,6 @@ contributions to the following open source projects:</p>
     
     
 
-    
     
     <script id="search-hit-fuse-template" type="text/x-template">
       <div class="search-hit" id="summary-{{key}}">
@@ -2492,7 +2653,7 @@ contributions to the following open source projects:</p>
 
     
     
-    
+    <!--
     <script>
       if (window.netlifyIdentity) {
         window.netlifyIdentity.on("init", user => {
@@ -2536,4 +2697,11 @@ contributions to the following open source projects:</p>
 
 
 </body>
+</html>-->
+  
+  
+  
+      <script src="/js/academic.min.37431be2d92d7fb0160054761ab79602.js"></script>
+
+  </body>
 </html>
